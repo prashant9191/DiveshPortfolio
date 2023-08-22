@@ -1,0 +1,68 @@
+<?xml version="1.0" standalone="no"?>
+<svg id="loader" width="424" height="424" viewBox="0 0 424 424" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; max-height: 100%;">
+<rect x="0.5" y="0.5" width="423" height="423" stroke="url(#paint0_linear_68_117)" stroke-dasharray="0,0,0,1692"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="100" dur="6.25s" values="0,0,0,1692; 
+          0,846,846,0; 
+          1692,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect x="27.5" y="27.5" width="369" height="369" stroke="url(#paint1_linear_68_117)" stroke-dasharray="0,0,0,1476"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="100" dur="6.25s" values="0,0,0,1476; 
+          0,738,738,0; 
+          1476,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect x="55.5" y="55.5" width="313" height="313" stroke="url(#paint2_linear_68_117)" stroke-dasharray="0,0,0,1252"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="100" dur="6.25s" values="0,0,0,1252; 
+          0,626,626,0; 
+          1252,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect x="90.5" y="90.5" width="243" height="243" stroke="url(#paint3_linear_68_117)" stroke-dasharray="0,0,0,972"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="100" dur="6.25s" values="0,0,0,972; 
+          0,486,486,0; 
+          972,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect x="120.5" y="120.5" width="183" height="183" stroke="url(#paint4_linear_68_117)" stroke-dasharray="0,0,0,732"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="100" dur="6.25s" values="0,0,0,732; 
+          0,366,366,0; 
+          732,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect x="148.5" y="148.5" width="127" height="127" stroke="url(#paint5_linear_68_117)" stroke-dasharray="0,0,0,508"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="100" dur="6.25s" values="0,0,0,508; 
+          0,254,254,0; 
+          508,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect x="164.5" y="164.5" width="95" height="95" stroke="url(#paint6_linear_68_117)" stroke-dasharray="0,0,0,380"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="100" dur="6.25s" values="0,0,0,380; 
+          0,190,190,0; 
+          380,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect x="179.5" y="179.5" width="65" height="65" stroke="url(#paint7_linear_68_117)" stroke-dasharray="0,0,0,260"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="100" dur="6.25s" values="0,0,0,260; 
+          0,130,130,0; 
+          260,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<rect x="194.5" y="194.5" width="35" height="35" stroke="url(#paint8_linear_68_117)" stroke-dasharray="0,0,0,140"><animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="100" dur="6.25s" values="0,0,0,140; 
+          0,70,70,0; 
+          140,0,0,0" keyTimes="0; 0.5; 1" fill="freeze"></animate></rect>
+<defs>
+<linearGradient id="paint0_linear_68_117" x1="212" y1="1" x2="212" y2="423" gradientUnits="userSpaceOnUse">
+<stop offset="0.5625" stop-color="#F8EEED"></stop>
+<stop offset="1" stop-color="#430F44"></stop>
+</linearGradient>
+<linearGradient id="paint1_linear_68_117" x1="212" y1="28" x2="212" y2="396" gradientUnits="userSpaceOnUse">
+<stop offset="0.5625" stop-color="#F8EEED"></stop>
+<stop offset="1" stop-color="#430F44"></stop>
+</linearGradient>
+<linearGradient id="paint2_linear_68_117" x1="212" y1="56" x2="212" y2="368" gradientUnits="userSpaceOnUse">
+<stop offset="0.5625" stop-color="#F8EEED"></stop>
+<stop offset="1" stop-color="#430F44"></stop>
+</linearGradient>
+<linearGradient id="paint3_linear_68_117" x1="212" y1="91" x2="212" y2="333" gradientUnits="userSpaceOnUse">
+<stop offset="0.5625" stop-color="#F8EEED"></stop>
+<stop offset="1" stop-color="#430F44"></stop>
+</linearGradient>
+<linearGradient id="paint4_linear_68_117" x1="212" y1="121" x2="212" y2="303" gradientUnits="userSpaceOnUse">
+<stop offset="0.5625" stop-color="#F8EEED"></stop>
+<stop offset="1" stop-color="#430F44"></stop>
+</linearGradient>
+<linearGradient id="paint5_linear_68_117" x1="212" y1="149" x2="212" y2="275" gradientUnits="userSpaceOnUse">
+<stop offset="0.5625" stop-color="#F8EEED"></stop>
+<stop offset="1" stop-color="#430F44"></stop>
+</linearGradient>
+<linearGradient id="paint6_linear_68_117" x1="212" y1="165" x2="212" y2="259" gradientUnits="userSpaceOnUse">
+<stop offset="0.5625" stop-color="#F8EEED"></stop>
+<stop offset="1" stop-color="#430F44"></stop>
+</linearGradient>
+<linearGradient id="paint7_linear_68_117" x1="212" y1="180" x2="212" y2="244" gradientUnits="userSpaceOnUse">
+<stop offset="0.5625" stop-color="#F8EEED"></stop>
+<stop offset="1" stop-color="#430F44"></stop>
+</linearGradient>
+<linearGradient id="paint8_linear_68_117" x1="212" y1="195" x2="212" y2="229" gradientUnits="userSpaceOnUse">
+<stop offset="0.5625" stop-color="#F8EEED"></stop>
+<stop offset="1" stop-color="#430F44"></stop>
+</linearGradient>
+</defs>
+<setting>{"type":"direct","speed":5,"random":1,"shift":1,"size":1,"rupture":50}</setting></svg>

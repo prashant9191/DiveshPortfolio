@@ -1,0 +1,31 @@
+     #scrollbtn button{
+        position: fixed;
+        width: 40px;
+        height: 40px;
+        bottom: 20px;
+        right: 15px;
+        background:#0000005e;
+        backdrop-filter: blur(2px) !important;
+        border: none;
+        padding: 0px;
+        z-index: 400;
+        border-radius: 50%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: ease-in-out 0.3s;
+        &:hover{
+            background:#0e0d0d91;
+            & i{
+               transition: ease-in-out 0.3s;
+            color:#ffffff;
+           }
+         }
+      }
+      #scrollbtn button i{
+        position: relative;
+        font-size: 15px;
+        color:#2a27ff; 
+      }
+    

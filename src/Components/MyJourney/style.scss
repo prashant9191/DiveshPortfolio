@@ -1,0 +1,59 @@
+.myjourney_container {
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+//   border: 2px solid yellowgreen;
+  background: #fdf3f3;
+  top: 60px;
+  overflow: hidden;
+  & .myjourneybg {
+    width: 100%;
+    & .myjourney_content {
+      height: 100%;
+      width: 100%;
+      & .myjourney_heading {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        padding-left: 90px;
+        padding-top: 30px;
+        & img {
+          width: 250px;
+        }
+        & h1 {
+          font-size: 27px;
+          color: #430f44;
+          margin-top: 8px;
+        }
+      }
+      & .myjourney_ladder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        & img{
+            height: 70vh;
+        }
+        & div:first-of-type{
+            position: relative;
+            bottom: 50px;
+        }
+        & div:last-of-type{
+            position: relative;
+            bottom: -150px;
+        }
+      }
+    }
+    @media screen and (max-width: 640px) {
+      & .myjourney_content {
+        transform: scale(.6);
+        & .myjourney_heading {
+          padding: 0;
+          width: 100%;
+          & img {
+            width: 180px;
+          }
+        }
+      }
+    }
+  }
+}

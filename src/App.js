@@ -1,23 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { useState, useEffect } from 'react';
+import Loader from './Components/Loader/Loader'; // Import the Loader component here
+import Header from './Components/Header/Header';
+import Banner from './Components/Banner/Banner';
+import Exprience from './Components/Exprience/Exprience';
+import Exp_Content from "./Components/Exp_Content/Exp_Content";
+import MyJourney from './Components/MyJourney/MyJourney';
+import WhatCan from './Components/WhatCan/WhatCan';
+import Works from './Components/Works/Works';
+import Scrollbtn from "./Components/ScrollBtn/ScrollBtn";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 6000);
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {isLoading ? <Loader /> : null}
+      <Header />
+      <Banner />
+      <Exprience />
+      <Exp_Content />
+      <MyJourney />
+      <WhatCan />
+      <Works />
+      <Scrollbtn />
     </div>
   );
 }

@@ -1,0 +1,132 @@
+.exp_content_container {
+  width: 100%;
+  height: 100vh;
+  position: sticky;
+  top: 60px;
+  & .exp_content_bg {
+    width: 100%;
+    height: 100%;
+    background: #430f4452;
+    & .exp_content {
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      & .exp_heading {
+        margin-bottom: 10px;
+      }
+      & .exp_heading img {
+        position: relative;
+        top: -10px;
+        right: -60px;
+        width: 90px;
+      }
+      & .exp_heading h1 {
+        font-size: 40px;
+        font-weight: 600;
+        letter-spacing: 4%;
+        color: white;
+        padding-top: 20px;
+      }
+      & .exp_detail {
+        margin-left: 100px;
+        text-align: left;
+        color: white;
+        // border: 1px solid white;
+        width: 60%;
+        letter-spacing: 3%;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+      }
+      & .exp_cont_skills {
+        display: flex;
+        align-items: start;
+        justify-content: left;
+        margin-top: 20px;
+        & div {
+          margin: 0 5%;
+          line-height: 35px;
+          color: #ffffff;
+        }
+        & div p {
+          color: #ffffff99;
+        }
+        & div:nth-child(1) p {
+          max-width: 250px;
+        }
+      }
+      
+      & .exp_checkmeout {
+        margin-top: 10px;
+        padding: 10px 0 0 68px;
+        display: flex;
+        align-items: center;
+        color: white;
+        & .exp_checkme_icons {
+          margin-left: 48px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          width: 270px;
+          & img{
+            width: 60px;
+          }
+          & div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            background-color: #0499fc;
+          }
+          & div:hover {
+            cursor: pointer;
+          }
+          & .linkedin_icon_container {
+            position: relative;
+            left: -85px;
+            top: -4px;
+          }
+          & .behance_container_postition {
+            position: relative;
+            left: -65px;
+            top: 0px;
+          }
+        }
+      }
+      & .arrow_down_exp {
+        text-align: center;
+        margin-top: 40px;
+        padding-left: 30px;
+      }
+      @media screen and (max-width: 640px) {
+        & .exp_cont_skills {
+          width: 100%;
+          & div {
+            margin: 0;
+          }
+        }
+        & .exp_checkmeout {
+          margin-top: 30px;
+          padding: 0;
+
+            & .exp_checkme_icons {
+              & .linkedin_icon_container {
+                left: -68px;
+              }
+            }
+        }
+      }
+    }
+      @media screen and (max-width: 1040px) {
+        & .exp_content {
+          transform: scale(.7);
+          & .exp_detail{
+            width: 100%;
+            margin: 0;
+          }
+        } 
+      }
+  }
+}
