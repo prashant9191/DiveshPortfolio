@@ -1,7 +1,7 @@
 import React from 'react';
 import "./style.scss";
 import hand from "../../Assets/Icons/hand.png";
-import divesh from "../../Assets/Icons/divesh.png";
+import divesh from "../../Assets/Icons/divesh.svg";
 const Banner = () => {
   return (
     <div className='banner_container'>

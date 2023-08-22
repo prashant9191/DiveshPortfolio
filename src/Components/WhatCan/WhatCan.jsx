@@ -29,7 +29,7 @@ const WhatCan = () => {
           </div>
           <div>
             <p>User Testing</p>
-            <p>User Testing</p>
+            <p>User Flow</p>
           </div>
         </div>
       </div>
