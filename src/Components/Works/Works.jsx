@@ -32,19 +32,19 @@ const Works = () => {
             </p>
           </div>
           <div className="works_ndcontainer">
-            <div>
+            <div onClick={()=>window.open("https://www.behance.net/divesh", '_blank')}>
               <img src={ui} alt="ui" />
               <p>User Interface</p>
             </div>
-            <div>
+            <div onClick={()=>window.open("https://www.behance.net/divesh", '_blank')}>
               <img src={ta} alt="ta" />
               <p>Typography Art</p>
             </div>
-            <div>
+            <div onClick={()=>window.open("https://www.behance.net/divesh", '_blank')}>
               <img src={mapp} alt="mapp" />
               <p>Mobile app design</p>
             </div>
-            <div>
+            <div onClick={()=>window.open("https://www.behance.net/divesh", '_blank')}>
               <img src={wd} alt="wd" />
               <p>Website Redesign</p>
             </div>

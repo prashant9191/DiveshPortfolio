@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.scss";
-import text_img from "../../Assets/Icons/my_journey.png";
+import text_img from "../../Assets/Icons/my_journey.svg";
 import ladder from "../../Assets/Icons/ladder.png";
 
 const MyJourney = () => {

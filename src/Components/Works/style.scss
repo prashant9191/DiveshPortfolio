@@ -70,6 +70,10 @@
         place-items: center;
         & div {
           height: min-content;
+          & img{
+            // border: 2px solid red;
+            
+          }
         }
         & div:nth-child(1) {
           position: relative;
@@ -90,6 +94,9 @@
         }
         & img {
           width: 300px;
+        }
+        & img:hover {
+          cursor: pointer;
         }
       }
       @media screen and (max-width: 640px) {
