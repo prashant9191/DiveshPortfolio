@@ -24,13 +24,13 @@
         font-size: 40px;
         font-weight: 600;
         letter-spacing: 4%;
-        color: white;
+        color: #FDF3F3B2;
         padding-top: 20px;
       }
       & .exp_detail {
         margin-left: 100px;
         text-align: left;
-        color: white;
+        color: #FDF3F3;
         // border: 1px solid white;
         width: 60%;
         letter-spacing: 3%;
@@ -43,13 +43,20 @@
         align-items: start;
         justify-content: center;
         margin-top: 20px;
+
         & div {
           margin: 0 5%;
           line-height: 35px;
           color: #ffffff;
+          & h2{
+            margin-bottom: 15px;
+            font-size: 21px;
+            font-weight: 500;
+          }
         }
         & div p {
           color: #ffffff99;
+          font-size: 16px;
         }
         & div:nth-child(1) p {
           max-width: 250px;
@@ -61,6 +68,8 @@
         padding: 10px 0 0 88px;
         display: flex;
         align-items: center;
+        position: relative;
+        top: 20px;
         color: white;
         & .exp_checkme_icons {
           margin-left: 48px;

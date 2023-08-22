@@ -24,6 +24,7 @@
         left: -80px;
         top:15px;
       }
+     
       @media screen and (max-width: 640px) {
         & h1 {
           font-size: 20px;
@@ -71,8 +72,10 @@
         & div {
           height: min-content;
           & img{
-            // border: 2px solid red;
-            
+            transition:.3s ease-in-out ;
+          }
+          & img:hover {
+            transform: scale(1.1);
           }
         }
         & div:nth-child(1) {

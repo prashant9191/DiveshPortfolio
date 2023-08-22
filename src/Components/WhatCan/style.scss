@@ -49,6 +49,11 @@
         font-size: 16px;
         font-weight: 500;
         line-height: 27px;
+        transition: .3s ease-in-out;
+      }
+      & div:hover {
+       transform: scale(1.1);
+      //  border: 2px solid red;
       }
       & div:nth-child(1) {
         background-color: #a1ccd1;
