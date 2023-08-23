@@ -71,7 +71,6 @@
       flex-direction: column;
       padding-left: 50px;
       width: 100%;
-      // border: 2px solid red;
       & .banner_top_heading {
         display: flex;
         justify-content: center;
@@ -79,6 +78,7 @@
         font-size: 38px;
         font-weight: 500;
         color: #430f44b2;
+        padding-bottom: 20px;
         & .banner_hand {
           position: relative;
           top: -40px;
@@ -86,7 +86,12 @@
           animation: wave 1s infinite linear;
           transform-origin: bottom right;
         }
-
+        @media screen and (max-width: 640px) {
+          margin-bottom: 20px;
+          & .banner_hand {
+           width: 70px;
+          }
+        }
         @keyframes wave {
           0%,
           100% {
