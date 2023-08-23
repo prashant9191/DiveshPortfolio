@@ -53,7 +53,6 @@
       }
       & div:hover {
        transform: scale(1.1);
-      //  border: 2px solid red;
       }
       & div:nth-child(1) {
         background-color: #a1ccd1;
@@ -87,13 +86,13 @@
         position: absolute;
         top: 40px;
         left: 10px;
-        transform: scale(0.6);
+        transform: scale(0.5);
       }
       & img:last-of-type {
         position: absolute;
-        bottom: 20px;
-        right: 20px;
-        transform: scale(0.6);
+        bottom: 10px;
+        right: 10px;
+        transform: scale(0.5);
       }
       & .whatcan_heading {
         & img {
@@ -102,23 +101,24 @@
         }
       }
       & .circles_whatcan {
-        transform: scale(0.8);
+        transform: scale(0.7);
         flex-direction: column;
+        margin-top: -80px;
         & div:nth-child(1) {
-          top: 10px;
-          left: -80px;
+          top: 40px;
+          left: -120px;
         }
         & div:nth-child(2) {
-          top: 0px;
-          left: 80px;
+          top: -10px;
+          left: 100px;
         }
         & div:nth-child(3) {
-          top: 0px;
-          left: -80px;
+          top: -20px;
+          left: -110px;
         }
         & div:nth-child(4) {
-          top: 0px;
-          left: 80px;
+          top: -40px;
+          left: 100px;
         }
       }
     }

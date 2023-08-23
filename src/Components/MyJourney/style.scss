@@ -2,7 +2,6 @@
   width: 100%;
   height: 100vh;
   position: sticky;
-//   border: 2px solid yellowgreen;
   background: #fdf3f3;
   top: 60px;
   overflow: hidden;
@@ -48,12 +47,18 @@
     }
     @media screen and (max-width: 640px) {
       & .myjourney_content {
-        transform: scale(.6);
+        transform: scale(.8);
         & .myjourney_heading {
           padding: 0;
           width: 100%;
           & img {
             width: 180px;
+          }
+          & h1 {
+            font-size: 22px;
+            color: #430f44;
+            margin-top: 8px;
+            margin-left: -20px;
           }
         }
       }
