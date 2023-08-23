@@ -95,6 +95,7 @@
         transform: scale(0.5);
       }
       & .whatcan_heading {
+       
         & img {
           left: 13%;
           top: 5px;
@@ -114,11 +115,11 @@
         }
         & div:nth-child(3) {
           top: -40px;
-          left: -110px;
+          left: -130px;
         }
         & div:nth-child(4) {
           top: -90px;
-          left: 100px;
+          left: 110px;
         }
       }
     }
