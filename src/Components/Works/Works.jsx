@@ -10,7 +10,7 @@ import f_bg from "../../Assets/Icons/f_bg.png";
 
 const Works = () => {
   return (
-    <div className="works_container" >
+    <div className="works_container">
       <div className="works_bg" id="work">
         <div className="works_heading">
           <h1>Some of my Feautured work!!</h1>
@@ -32,19 +32,35 @@ const Works = () => {
             </p>
           </div>
           <div className="works_ndcontainer">
-            <div onClick={()=>window.open("https://www.behance.net/divesh", '_blank')}>
+            <div
+              onClick={() =>
+                window.open("https://www.behance.net/divesh", "_blank")
+              }
+            >
               <img src={ui} alt="ui" />
               <p>User Interface</p>
             </div>
-            <div onClick={()=>window.open("https://www.behance.net/divesh", '_blank')}>
+            <div
+              onClick={() =>
+                window.open("https://www.behance.net/divesh", "_blank")
+              }
+            >
               <img src={ta} alt="ta" />
               <p>Typography Art</p>
             </div>
-            <div onClick={()=>window.open("https://www.behance.net/divesh", '_blank')}>
+            <div
+              onClick={() =>
+                window.open("https://www.behance.net/divesh", "_blank")
+              }
+            >
               <img src={mapp} alt="mapp" />
               <p>Mobile app design</p>
             </div>
-            <div onClick={()=>window.open("https://www.behance.net/divesh", '_blank')}>
+            <div
+              onClick={() =>
+                window.open("https://www.behance.net/divesh", "_blank")
+              }
+            >
               <img src={wd} alt="wd" />
               <p>Website Redesign</p>
             </div>
@@ -60,7 +76,10 @@ const Works = () => {
               <div className="footer_icon first">
                 <i class="fas fa-file-alt"></i>
               </div>
-              <p>Uttam Nagar, New Delhi , <br />India (Bharat Ganarajya)</p>
+              <p>
+                Uttam Nagar, New Delhi , <br />
+                India (Bharat Ganarajya)
+              </p>
             </div>
             <div>
               <div className="footer_icon">
@@ -81,23 +100,37 @@ const Works = () => {
           </div>
         </div>
         <div className="keepaneyeonme">
-            <p>Keep an eye on me:</p>
-          </div>
+          <p>Keep an eye on me:</p>
+        </div>
         <div className="keepeye">
-         
-          <div onClick={()=>window.open("https://www.behance.net/divesh", '_blank')}>
+          <div
+            onClick={() =>
+              window.open("https://www.behance.net/divesh", "_blank")
+            }
+          >
             <i class="fab fa-behance"></i>
           </div>
-          <div  onClick={()=>window.open("https://www.linkedin.com/in/divesh-3327a0a7/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B3CBzAbnDRdOVT1xjYy%2FMvg%3D%3D", '_blank')}>
+          <div
+            onClick={() =>
+              window.open(
+                "https://www.linkedin.com/in/divesh-3327a0a7/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3B3CBzAbnDRdOVT1xjYy%2FMvg%3D%3D",
+                "_blank"
+              )
+            }
+          >
             <i class="fab fa-linkedin-in"></i>
           </div>
-          <div  onClick={()=>window.open("https://twitter.com/divesh29562085", '_blank')}>
+          <div
+            onClick={() =>
+              window.open("https://twitter.com/divesh29562085", "_blank")
+            }
+          >
             <i class="fab fa-twitter"></i>
           </div>
         </div>
         <div className="signature">
-            <p>Thanking You</p>
-            <img src={sign} alt="divesh" />
+          <p>Thanking You</p>
+          <img src={sign} alt="divesh" />
         </div>
       </div>
     </div>
