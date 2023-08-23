@@ -93,17 +93,13 @@
             transform: rotate(0deg);
           }
           25% {
-            transform: rotate(
-              -15deg
-            );
+            transform: rotate(-15deg);
           }
           50% {
             transform: rotate(0deg);
           }
           75% {
-            transform: rotate(
-              15deg
-            );
+            transform: rotate(15deg);
           }
         }
         & .banner_divesh {
@@ -132,47 +128,37 @@
       }
     }
     @media screen and (max-width: 1060px) {
-    & .dots_container {
-        transform: scale(.8);
-        // border: 2px solid red;
-        // left: 20px;
-        top: 20px;
-      }
       & .banner_text {
-        transform: scale(.8);
-        margin-top: -160px;
+        transform: scale(0.6);
         & .banner_top_heading {
           font-size: 24px;
           margin-left: -90px;
+          margin-bottom: -50px;
         }
-      } 
-      & h1{
+      }
+      & h1 {
         font-size: 45px;
-      } 
+      }
     }
     @media screen and (max-width: 640px) {
-    & .dots_container {
-        transform: scale(.6);
-        // border: 2px solid red;
-        left: -50px;
+      & .dots_container {
+        transform: scale(0.4);
+        left: -90px;
         top: 20px;
       }
       & .banner_detail {
         width: 100%;
       }
       & .banner_text {
-        transform: scale(.8);
-        // margin-top: -160px;
+        transform: scale(0.8);
         padding: 0;
-        & img{
+        & img {
           width: 120px;
         }
-
-      } 
-      & h1{
+      }
+      & h1 {
         font-size: 45px;
-      } 
+      }
     }
-    
-}
+  }
 }
