@@ -5,7 +5,7 @@ import i1 from "../../Assets/Icons/4.png";
 import i2 from "../../Assets/Icons/5.png";
 import i3 from "../../Assets/Icons/3.png";
 import x from "../../Assets/Icons/x.png";
-import pdf from "./Divesh.pdf";
+import DIVESH from "./Divesh.pdf";
 
 const Header = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -32,7 +32,7 @@ const Header = () => {
           <a href="#about">About Me</a>
           <a href="#work">My Projects</a>
           <a href="#contact">Talk To Me</a>
-          <a href={pdf} target="_blank">
+          <a href={DIVESH} target="_blank" rel="noopener noreferrer" >
             My Resume
           </a>
         </div>
