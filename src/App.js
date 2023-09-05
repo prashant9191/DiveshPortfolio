@@ -9,6 +9,7 @@ import MyJourney from './Components/MyJourney/MyJourney';
 import WhatCan from './Components/WhatCan/WhatCan';
 import Works from './Components/Works/Works';
 import Scrollbtn from "./Components/ScrollBtn/ScrollBtn";
+import CustomCursor from './Components/CustomCursor/CustomCursor';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -34,6 +35,7 @@ function App() {
       <WhatCan />
       <Works />
       <Scrollbtn />
+      <CustomCursor/>
     </div>
   );
 }

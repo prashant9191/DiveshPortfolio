@@ -111,6 +111,7 @@
         }
         & .arrow_down_exp_img:hover {
           animation: moveUpDown 1s linear infinite; 
+          // cursor:.;
         }
         @keyframes moveUpDown {
           0%, 100% {

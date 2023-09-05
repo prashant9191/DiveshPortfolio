@@ -1,0 +1,13 @@
+/* CustomCursor.css */
+.custom-cursor {
+  z-index: 999;
+    width: 8px;
+    height: 8px;
+    background-color: #430F44E2; /* Customize the cursor color */
+    border-radius: 50%;
+    position: absolute;
+    pointer-events: none; /* Allow clicks to pass through */
+    transform: translate(-50%, -50%);
+    transition: transform .7s ease; /* Adjust the delay by changing the transition duration */
+  }
+  

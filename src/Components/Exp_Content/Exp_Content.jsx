@@ -3,6 +3,7 @@ import "./style.scss";
 import line from "../../Assets/Icons/line.png";
 import search from "../../Assets/Icons/search.png";
 import DA from "../../Assets/Icons/arrow_down.png";
+import mouse from "../../Assets/Icons/mouse.png";
 const Exp_Content = () => {
   return (
     <div data-aos="fade-up-right">
