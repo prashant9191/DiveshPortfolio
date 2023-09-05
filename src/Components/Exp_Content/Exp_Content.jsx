@@ -71,7 +71,7 @@ const Exp_Content = () => {
               </div>
             </div>
             <div className="arrow_down_exp">
-              <img src={DA} alt="arrow_down" />
+              <img className="arrow_down_exp_img" src={DA} alt="arrow_down" />
             </div>
           </div>
         </div>
