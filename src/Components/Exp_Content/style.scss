@@ -107,17 +107,17 @@
         margin-top: 40px;
         padding-left: 30px;
         & .arrow_down_exp_img {
-          animation: moveUpDown1 1s linear infinite; /* Adjust the duration as needed */
+          animation: moveUpDown1 1s linear infinite; 
         }
         & .arrow_down_exp_img:hover {
-          animation: moveUpDown 1s linear infinite; /* Adjust the duration as needed */
+          animation: moveUpDown 1s linear infinite; 
         }
         @keyframes moveUpDown {
           0%, 100% {
             transform: translateY(0);
           }
           50% {
-            transform: translateY(-20px); /* Adjust this value for the desired movement */
+            transform: translateY(-20px);
           }
         }
         @keyframes moveUpDown1 {
@@ -125,7 +125,7 @@
             transform: translateY(0);
           }
           50% {
-            transform: translateY(-10px); /* Adjust this value for the desired movement */
+            transform: translateY(-10px); 
           }
         }
       }
